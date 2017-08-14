@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color:  white;
+    background-color: black;
+    background: url(../img/bees2.jpg) top center no-repeat ;
+}
+.body-2 {
+    background: url(../img/beekeeper.jpg) top no-repeat;
+}
+
+.wrapper  {
+    display: flex;
+    height: inherit;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    max-width: inherit;
+    max-height: 300px;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+
+p, h2 {
+    padding: 20px 20px;
+}
+
+.block-text {
+    margin: auto 0;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(10, 10, 10, 0.8);
+    position: fixed;
+    width: 100%;
+}
+
+.icon {
+    display: block;
+    height: 50px;
+    padding: 20px 60px;
+    float: left;
+}
+
+.nav {
+    line-height: 100px;
+    float: right;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    height: inherit;
+    margin: 0px 10px;
+}
+
+a {
+    display: block;
+    height: 97px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #FF6812;
+    color: #FF6812;
+}
+
+.tel {
+    display: block;
+    line-height: 100px;
+    padding: 0 20px;
+}
+
+.first {
+     background-color: rgba(10, 10, 10, 0.6); 
+   
+}
+
+.general {
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+h1 {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.general>h2 {
+    line-height: 70px;
+    font-size: 30px;
+}
+
+h3 {
+    padding: 100px 0 20px;
+    text-transform: uppercase;
+}
+
+.cta-btn li,.agree-btn li {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #FF6812;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.cta-btn li a, .agree-btn li a {
+    line-height: 50px;
+    color: #FF6812;
+    height: inherit;
+    transition: color 0.5s;
+}
+
+.cta-btn li:hover, .agree-btn li:hover {
+    border-color: white;
+}
+
+.cta-btn li:hover a, .agree-btn li:hover a {
+    color: white;
+}
+
+.cta-btn li:nth-child(2), .agree-btn li:nth-child(2) {
+    background-color: #FF6812;
+    transition: background-color 0.5s;
+}
+
+.cta-btn li:nth-child(2) a, .agree-btn li:nth-child(2) a {
+    color: white;
+} 
+
+.cta-btn li:nth-child(2) a:hover, .agree-btn li:nth-child(2) a:hover {
+   color: #FF6812;
+} 
+
+.cta-btn li:nth-child(2):hover, .agree-btn li:nth-child(2):hover {
+    border-color: white;
+    background-color: white;
+}
+
+.an-url {
+    display: inline;
+    color: orange;
+    font-size: 18px;
+    text-transform: inherit;
+    text-decoration: underline;
+}
+
+section img {
+    display: block;
+    max-height: 300px;
+    box-shadow: 10px 10px 8px -1px rgba(0,0,0,0.67);
+}
+
+.history, .properties {
+    background-color: rgba(255,255, 255, 0.6);
+    color: black;
+}
+
+.nowadays, .problems {
+    background-color: rgba(10,10, 10, 0.8);
+}
+
+.offer {
+    max-height: 800px;
+    width: 100%;
+    background-color: #740900;
+}
+
+.offer h3 {
+    padding: 20px;
+}
+
+.offer h2 {
+    font-size: 30px;
+    color: #FF4B0F;
+    text-transform: uppercase;
+}
+
+.offer .block {
+    max-height: 700px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+}
+
+footer .block {
+   padding: 0;
+   margin: 0 auto;
+}
+
+footer p {
+    padding: 10px;
+}
